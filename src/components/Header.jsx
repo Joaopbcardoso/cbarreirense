@@ -7,6 +7,7 @@ export default function Header(){
                     <li><a className="link" href="#">Partidas</a></li>
                     <li><a className="link" href="#">Elenco</a></li>
                     <li><a className="link" href="#">Entre em Contato</a></li>
+                    <li><a className="link" href="#">Patrocínios</a></li>
                 </ul>
                 
             </header>
