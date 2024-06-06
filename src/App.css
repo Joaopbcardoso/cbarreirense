@@ -24,9 +24,22 @@ header{
         text-decoration: none;
         margin-left: 25px;
         text-transform: uppercase;
+        position: relative;
     }
-    && .link:hover{
-        text-decoration: underline;
+    && .link::after{
+        content: '';
+        position: absolute;
+        height: 3.2px;
+        top: 22px;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        background-color: #FFF;
+        transition: width .3s;
+        border-radius: 17%;
+    }
+    && .link:hover::after{
+        width: 100%;
     }
 }
 
@@ -44,7 +57,7 @@ header{
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 790px){
     header{
         
     
